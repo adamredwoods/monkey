@@ -1,4 +1,3 @@
-
 //Lang/OS...
 #include <ctime>
 #include <cmath>
@@ -24,6 +23,7 @@
 #include <copyfile.h>
 
 #elif __linux
+#define GL_GLEXT_PROTOTYPES
 #include <unistd.h>
 #include <sys/stat.h>
 #include <dirent.h>
